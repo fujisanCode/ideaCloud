@@ -1,1 +1,3 @@
 各模块的依赖分开写，避免springCloud和springBoot依赖冲突
+公共依赖可以在父pom中写，例如actuator的依赖
+父pom中需要通过module指定子模块，子模块中指定父模块，所以子项目中可以使用父项目的依赖

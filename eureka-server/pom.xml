@@ -32,6 +32,8 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
             <version>${spring-cloud.version}</version>
         </dependency>
+
+        <!--引入security的包，但是不设置密码则无法登录-->
         <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-security</artifactId>

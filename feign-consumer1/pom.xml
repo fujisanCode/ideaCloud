@@ -42,6 +42,13 @@
             <version>${spring-cloud.version}</version>
         </dependency>
 
+        <!--配置依赖后自动加入登录页面 如果加入登录页面则admin监控不到已经暴露的端点-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-security</artifactId>-->
+            <!--<version>${spring-boot.version}</version>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

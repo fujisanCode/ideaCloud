@@ -24,6 +24,7 @@
         <mybatis-spring.version>1.3.2</mybatis-spring.version>
         <lombok.version>1.18.4</lombok.version>
         <codecentric.version>2.1.1</codecentric.version>
+        <springframework.version>5.1.0.RELEASE</springframework.version>
     </properties>
 
     <dependencies>
@@ -57,7 +58,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
-            <version>${spring-boot.version}</version>
+            <version>${springframework.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

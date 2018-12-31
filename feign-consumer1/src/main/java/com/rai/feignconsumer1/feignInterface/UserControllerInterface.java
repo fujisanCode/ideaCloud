@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Component
-@FeignClient(value = "service-provider1",path = "/docker")
+@FeignClient(value = "service-provider1")
 public interface UserControllerInterface {
 
     @RequestMapping(value = "/findUser/{uId}",method = RequestMethod.GET)
