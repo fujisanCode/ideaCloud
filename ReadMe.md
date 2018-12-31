@@ -1,0 +1,1 @@
+各模块的依赖分开写，避免springCloud和springBoot依赖冲突
