@@ -1,4 +1,4 @@
-package com.rai.feignconsumer1.feignInterface.domain;
+package com.rai.feignconsumer1.domain;
 
 import lombok.ToString;
 

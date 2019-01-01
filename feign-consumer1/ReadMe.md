@@ -1,0 +1,7 @@
+spring调用微服务的两种方式
+一种是restTemplate，通过url调用
+一种是声明式，通过需要调用的微服务的接口调用，调用的时候需要先声明需要的domain
+可以将微服务的接口和domain提前打包，然后上传的maven仓库，引用即可
+
+feign中包含hystrix熔断服务，不需要引入新的jar包，此服务即可开启hystrix
+hystrixDashboard 和 turbine，分别是监控单个节点的熔断和集群的熔断

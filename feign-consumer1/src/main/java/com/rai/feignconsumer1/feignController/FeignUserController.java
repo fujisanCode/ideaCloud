@@ -1,7 +1,7 @@
 package com.rai.feignconsumer1.feignController;
 
 import com.rai.feignconsumer1.feignInterface.UserControllerInterface;
-import com.rai.feignconsumer1.feignInterface.domain.User;
+import com.rai.feignconsumer1.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
