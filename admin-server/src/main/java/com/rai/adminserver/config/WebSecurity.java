@@ -1,4 +1,4 @@
-package com.cloud.eurekaserver.config;
+package com.rai.adminserver.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -21,7 +21,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
         //permitAll是不需要登录可以访问的 anyRequest是其他的资源 authenticated是需要登录访问的
         //fromLogin允许表单登录  httpBasic允许url登录
         http.authorizeRequests()
-            .antMatchers("/actuator/**","/eureka","/e")
+            .antMatchers("/actuator/**")
             .permitAll()
             .anyRequest()
             .authenticated()
