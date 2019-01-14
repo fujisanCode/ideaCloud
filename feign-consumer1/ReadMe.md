@@ -5,3 +5,7 @@ spring调用微服务的两种方式
 
 feign中包含hystrix熔断服务，不需要引入新的jar包，此服务即可开启hystrix
 hystrixDashboard 和 turbine，分别是监控单个节点的熔断和集群的熔断
+
+在需要引用configSever的类上使用@refreshScope注解，每次修改配置文件
+通过post 方式访问localhost:8021/actuator/refresh，能够刷新文件配置中心
+在cmd中的命令为curl -X POST http://localhost:8021/actuator/refresh

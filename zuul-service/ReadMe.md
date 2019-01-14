@@ -1,2 +1,5 @@
 通过zuul网管对eureka上的服务进行转发
 zuul网管实现负载均衡，权限校验等服务
+
+zuul中加入token验证的过滤器，所有经过zuul的转发的请求都需要token验证
+zuul中加入对service-provider1服务的熔断机制
